@@ -1,0 +1,36 @@
+// Colors
+
+$colors: (
+  white: #ffffff,
+  wild-sand: #f5f5f5,
+
+  alto: #d9d9d9,
+  athens-gray: #e5e6e9,
+  periwinkle-gray: #c8daea,
+  regent-gray: #8591a5,
+  oslo-gray: #848c90,
+  pale-sky: #6e747a,
+
+  sail: #a1d5f6,
+  eastern-blue: #1793bd,
+  royal-blue: #4d85e6,
+  royal-blue-border: #4077d6,
+  cornflower-blue: #4c8bf7,
+
+  black: #000000,
+  firefly: #10242d,
+  outer-space: #2e3640,
+
+  froly: #f37575,
+);
+
+// Media breakpoints
+
+$breakpoints: (
+  mobile-min: 375px,
+  mobile-max: 767px,
+  tablet-min: 768px,
+  tablet-max: 1279px,
+  desktop-min: 1280px,
+  desktop-max: 1920px,
+);
