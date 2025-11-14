@@ -1,36 +1,35 @@
-// Colors
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-wild-sand: #f5f5f5;
 
-$colors: (
-  white: #ffffff,
-  wild-sand: #f5f5f5,
+  --color-alto: #d9d9d9;
+  --color-athens-gray: #e5e6e9;
+  --color-periwinkle-gray: #c8daea;
+  --color-regent-gray: #8591a5;
+  --color-oslo-gray: #848c90;
+  --color-pale-sky: #6e747a;
 
-  alto: #d9d9d9,
-  athens-gray: #e5e6e9,
-  periwinkle-gray: #c8daea,
-  regent-gray: #8591a5,
-  oslo-gray: #848c90,
-  pale-sky: #6e747a,
+  --color-sail: #a1d5f6;
+  --color-eastern-blue: #1793bd;
+  --color-royal-blue: #4d85e6;
+  --color-royal-blue-border: #4077d6;
+  --color-cornflower-blue: #4c8bf7;
 
-  sail: #a1d5f6,
-  eastern-blue: #1793bd,
-  royal-blue: #4d85e6,
-  royal-blue-border: #4077d6,
-  cornflower-blue: #4c8bf7,
+  --color-black: #000000;
+  --color-firefly: #10242d;
+  --color-outer-space: #2e3640;
 
-  black: #000000,
-  firefly: #10242d,
-  outer-space: #2e3640,
+  --color-froly: #f37575;
 
-  froly: #f37575,
-);
+  /* Breakpoints */
+  --breakpoint-mobile-min: 375px;
+  --breakpoint-mobile-max: 767px;
+  --breakpoint-tablet-min: 768px;
+  --breakpoint-tablet-max: 1279px;
+  --breakpoint-desktop-min: 1280px;
+  --breakpoint-desktop-max: 1920px;
 
-// Media breakpoints
-
-$breakpoints: (
-  mobile-min: 375px,
-  mobile-max: 767px,
-  tablet-min: 768px,
-  tablet-max: 1279px,
-  desktop-min: 1280px,
-  desktop-max: 1920px,
-);
+  /* Container */
+  --container-padding: 20px;
+}
