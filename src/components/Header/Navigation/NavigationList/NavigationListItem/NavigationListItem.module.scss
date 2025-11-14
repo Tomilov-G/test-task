@@ -4,3 +4,14 @@ li {
     padding-left: 0px;
   }
 }
+
+.navigationListItemLink {
+  text-decoration: none;
+  color: var(--color-wild-sand);
+  transition: all 0.3s ease;
+}
+
+.active {
+  color: var(--color-periwinkle-gray);
+  text-decoration: underline;
+}

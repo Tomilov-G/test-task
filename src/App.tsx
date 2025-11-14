@@ -1,15 +1,13 @@
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
-import { Main } from "./components/Main/Main";
 import { Provider } from "react-redux";
+import { RouterProvider } from "react-router-dom";
 import { store } from "./store/store";
+import router from "./router";
+
 export const App = () => {
   return (
     <>
       <Provider store={store}>
-        <Header />
-        <Main />
-        <Footer />
+        <RouterProvider router={router} />
       </Provider>
     </>
   );

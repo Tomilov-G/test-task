@@ -1,4 +1,10 @@
 import classes from "./Main.module.scss";
-export const Main = () => {
-  return <main className={classes.main}></main>;
+import { type ReactNode } from "react";
+
+interface MainProps {
+  children: ReactNode;
+}
+
+export const Main = ({ children }: MainProps) => {
+  return <main className={classes.main}>{children}</main>;
 };

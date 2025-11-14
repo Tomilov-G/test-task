@@ -1,0 +1,48 @@
+.mainCard {
+  height: 90%;
+  background-color: var(--color-alto);
+  padding: 20px;
+  box-sizing: border-box;
+
+  .mainCardFirstBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fieldRow {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  label {
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .inputWithButton {
+    display: flex;
+    width: 100%;
+  }
+
+  .inputWithButton input {
+    flex: 1;
+    min-width: 0;
+    border-radius: 6px 0 0 6px; 
+    border: 1px solid #ccc; 
+    padding: 6px 10px;
+    outline: none;
+  }
+
+  .inputWithButton button {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 30px;
+    border-radius: 0 6px 6px 0; 
+    border: 1px solid #ccc;
+    border-left: none; 
+    cursor: pointer;
+  }
+}

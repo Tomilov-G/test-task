@@ -1,4 +1,4 @@
-interface AttributeDefinition {
+export interface AttributeDefinition {
   id: string;
   name: string;
   type: "text" | "number" | "date" | "checkbox";
